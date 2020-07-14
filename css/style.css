@@ -1,0 +1,57 @@
+/*MIX*/
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display: inline-block;
+}
+
+/* header*/
+
+/*header-top*/
+
+.header-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: red;
+  line-height: 70px;
+  font-size: 0.7em;
+}
+
+.logo {
+  height: 15px;
+}
+.main-menu {
+  text-align: right;
+}
+.main-menu li {
+  padding-right: 20px;
+}
+.main-menu li a {
+  text-decoration: none;
+  color: #000;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.side-menu {
+  text-align: right;
+}
+
+.side-menu li:first-child {
+  border-right: 1px solid #000;
+}

@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
 /*MIX*/
 body {
 font-family: 'Open Sans', sans-serif;
@@ -22,11 +28,16 @@ a {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: red;
+  height: 70px;
+  padding: 0 10px;
+  background-color: #fff;
   line-height: 70px;
   font-size: 0.7em;
 }
-
+.container {
+  position: relative;
+  width: 100%;
+}
 .logo {
   height: 15px;
 }
@@ -34,31 +45,66 @@ a {
   text-align: right;
 }
 .main-menu li {
-  padding-right: 20px;
+  padding-right: 35px;
 }
 .main-menu li a {
   text-decoration: none;
   color: #000;
 }
+.side-menu li {
+  display: inline-block;
+  text-align: right;
+  line-height: 1.5em;
+}
+.side-menu .list-inline li:first-child {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 0 3px;
+}
 .btn {
   padding: 10px 20px;
+  margin-left: 10px;
   background-color: #000;
   color: #fff;
-  font-weight: 400;
-  font-size: 1em;
+  font-weight: bold;
+  font-size: 0.9em;
 }
 
-.side-menu {
-  text-align: right;
+.hamburger-icon {
+  float: right;
+  line-height: 70px;
+  font-size: 1.4rem;
 }
+ .freccia {
+   padding: 0 4px;
+ }
 
  /*hero*/
- /* Hero */
+
 .hero {
-  height: 1000px;
+  height: 700px;
   background-image: url("../img/hero-bg.jpg");
   position: relative;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+ /*banner centrale*/
+.banner {
+  position: relative;
+  width: 50%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+ }
+
+ .banner-title h1 {
+   font-weight: 700;
+   font-size: 2em;
+ }

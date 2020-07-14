@@ -55,3 +55,12 @@ a {
 .side-menu li:first-child {
   border-right: 1px solid #000;
 }
+ /*hero*/
+ /* Hero */
+.hero {
+  height: 700px;
+  background-image: url("..img/hero-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
